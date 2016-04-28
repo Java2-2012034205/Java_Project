@@ -1,11 +1,11 @@
 package sample_0414;
 
-public class Car {
+public class Car1 {
    private int man;
    private int tire;
    private String color;
 
-   public Car() {this(4,3,"red");} //man=4; tire=3; color="red";}
+   public Car1() {this(4,3,"red");} //man=4; tire=3; color="red";}
    public void setMan(int man){
 	   this.man = man;
  }
@@ -21,7 +21,7 @@ public class Car {
  	  System.out.println("man : "+man+" tire : "+tire+" color: "+color+"");
 }
    public Car() {}
-   public Car(int man, int tire, String color){
+   public Car1(int man, int tire, String color){
 	   this.man = man; this.tire = tire; this.color = color;
    }
 }
